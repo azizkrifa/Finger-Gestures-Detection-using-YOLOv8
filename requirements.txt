@@ -1,0 +1,9 @@
+ultralytics>=8.0.0
+split-folders
+matplotlib
+seaborn
+pandas
+numpy
+opencv-python
+requests
+roboflow
