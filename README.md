@@ -77,19 +77,18 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
   ### Evaluation Metrics (test set) : 
 
   ![alt text](evalutaion.PNG)
+  
 
 
   ### Confusion Matrix : 
 
-
-
   📝 Note: Our dataset has 6 classes (0 to 5), but the Ultralytics ConfusionMatrix object includes an extra row and column, making it a 7×7 matrix. This extra class corresponds to the background/no-detection category, which accounts for:
-
+    
     False positives (detections with no matching ground truth)
 
     False negatives (ground truth objects missed by the model)
 
-  ![alt text](Confusion_Matrix.png)
+   ![alt text](Confusion_Matrix.png)
 
   
 
