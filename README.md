@@ -70,8 +70,8 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
   ### Training History : 
 
-<img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="300" height="300">
-<img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="500" height="500">
 
 
   ### Evaluation Metrics (test set) : 
