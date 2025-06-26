@@ -69,10 +69,9 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
   The model achieves good mAP and precision on validation and test sets ( >> 90% ) .
 
   ### Training History : 
-![Sans titre](https://github.com/user-attachments/assets/29307276-09f6-4567-b09b-30000c99d6e0)
-![Sans titre](https://github.com/user-attachments/assets/29307276-09f6-4567-b09b-30000c99d6e0)
 
-<img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="500" height="600">
+
+<img src="https://github.com/user-attachments/assets/29307276-09f6-4567-b09b-30000c99d6e0" width="500" height="600">
 <img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="500" height="600">
 
 
