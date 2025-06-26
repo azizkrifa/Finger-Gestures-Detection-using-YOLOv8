@@ -91,6 +91,19 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
    ![alt text](Confusion_Matrix.png)
 
+
+   ### Predictions : 
+ <img src="https://github.com/user-attachments/assets/47866d12-480d-434d-b599-557d49648949" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/9af89421-d94c-4368-9683-c36329815223" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/db5c7fc3-eee4-4f82-8c22-04bdc75eb4b4" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/38412b74-45f5-4f48-a77b-4501bfa5d759" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/70cb24b7-6e47-4485-b316-860f18c51f3e" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/f56f9e36-0e74-4689-a270-df16f8775717" width="300" height="300">
+
+
+
+
+
   
 
 
