@@ -77,7 +77,7 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
   ### Evaluation Metrics (test set) : 
 
-  ![alt text](evalutaion.PNG)
+  ![alt text](Outputs/evalutaion.PNG)
   
 
 
@@ -89,7 +89,7 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
 -False negatives (ground truth objects missed by the model)
 
-   ![alt text](Confusion_Matrix.png)
+   ![alt text](Outputs/Confusion_Matrix.png)
 
 
    ### Predictions : 
