@@ -22,7 +22,7 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
     YOLO format labels (.txt files).
 
-# Classes:
+### Classes:
 
     0: Zero
 
@@ -36,7 +36,7 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
     5: Five
 
-# Directory structure:
+### Directory structure:
 
     Datasets/
     └── fingers_dataset(split)/
@@ -68,20 +68,20 @@ The dataset is a merged collection of finger gesture images (numbers 0 to 5) sou
 
   The model achieves good mAP and precision on validation and test sets ( >> 90% ) .
 
-  # Training History : 
+  ### Training History : 
 
-  ![alt text](<Training History.png>)
+  ![alt text](TrainingHistory.PNG)
 
-  # Evaluation Metrics (test set) : 
+  ### Evaluation Metrics (test set) : 
 
   ![alt text](evalutaion.PNG)
 
 
-  # Confusion Matrix : 
+  ### Confusion Matrix : 
 
   ![alt text](Confusion_Matrix.png)
 
-  Note : Our dataset has 6 Classes from 0----5 but Ultralytics ConfusionMatrix adds an extra row/col ( extra class ) for “background” or “no detection” (false positives / false negatives). !!
+  ###Note : Our dataset has 6 Classes from 0----5 but Ultralytics ConfusionMatrix adds an extra row/col ( extra class ) for “background” or “no detection” (false positives / false negatives). !!
 
 
   
