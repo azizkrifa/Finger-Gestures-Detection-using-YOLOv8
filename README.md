@@ -78,21 +78,34 @@ You can access the datasets used in this project here:
 <img src="https://github.com/user-attachments/assets/e8c31efb-b3e1-4325-87da-1b50b40e5649" width="800" height="600">
 
 
-  ### Evaluation Metrics (test set) : 
+### Evaluation Metrics (test set) : 
 
   ![alt text](Outputs/evalutaion.PNG)
   
+  The table above shows the performance metrics of the trained YOLOv8 model on the test set. The dataset contains **6 classes** (digits 0 to 5), with a total of **1,632 instances across 1,618 images**.
+
+- **Box(P)**: Precision of bounding box predictions per class.
+- **R**: Recall per class.
+- **mAP50**: Mean Average Precision at IoU threshold 0.5 — measures object detection accuracy.
+- **mAP50-95**: Mean Average Precision averaged over IoU thresholds from 0.5 to 0.95 (in steps of 0.05) — more strict and reliable metric.
+
+🔍 The model achieves:
+- **Overall mAP50** of **0.993**
+- **Overall mAP50-95** of **0.990**
+- High precision and recall across all classes, with minor drop in recall for class **0** (digit 0).
+  
 
 
-  ### Confusion Matrix : 
+### Confusion Matrix : 
 
-  📝 Note: Our dataset has 6 classes (0 to 5), but the Ultralytics ConfusionMatrix object includes an extra row and column, making it a 7×7 matrix. This extra class corresponds to the background/no-detection category, which accounts for:
+   ![alt text](Outputs/Confusion_Matrix.png)
+
+   📝 Note: Our dataset has 6 classes (0 to 5), but the Ultralytics ConfusionMatrix object includes an extra row and column, making it a 7×7 matrix. This extra class     corresponds to the background/no-detection category, which accounts for:
     
 -False positives (detections with no matching ground truth)
 
 -False negatives (ground truth objects missed by the model)
 
-   ![alt text](Outputs/Confusion_Matrix.png)
 
 
    ### Predictions : 
