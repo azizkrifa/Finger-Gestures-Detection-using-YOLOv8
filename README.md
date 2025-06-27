@@ -16,7 +16,10 @@ pip install -r requirements.txt
 
 ## 📂 Dataset
 
-The dataset is a merged collection of finger gesture images (numbers 0 to 5) sourced from Roboflow.
+The dataset is a merged collection of finger gesture images (numbers 0 to 5), created by combining samples from multiple Roboflow datasets (versions v1 to v7).  
+You can access the datasets used in this project here:  
+👉 [all the datasets link](https://universe.roboflow.com/hands-rirpj/fingers-numbers/dataset/7)
+
 
     Images + labels are merged and split into train, val, test using split-folders.
 
