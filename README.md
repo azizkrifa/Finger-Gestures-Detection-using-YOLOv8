@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## 📂 Dataset
 
-The dataset is a merged collection of finger gesture images (numbers 0 to 5), created by combining samples from multiple Roboflow datasets (versions v1 to v7).  
+The dataset is a merged collection of finger gesture images (numbers from 0 to 5), created by combining samples from multiple Roboflow datasets (versions v1 to v7).  
 You can access the datasets used in this project here:  [all the datasets ](https://universe.roboflow.com/hands-rirpj/fingers-numbers/dataset/7)
 
 - Images + labels are merged and split into train, val, test using **split-folders** library.
@@ -27,22 +27,6 @@ You can access the datasets used in this project here:  [all the datasets ](http
 - **YOLO** format labels (.txt files).
 
 👉 You can access the **post-processed** dataset (ready to fit the model) used in this project here: [post-processed dataset](https://drive.google.com/drive/folders/17QQ0nbbwBH3ofXY1OXlM2aP_hUHEz2L-?usp=drive_link)
-
-
- 
-### Classes:
-
-    0: Zero
-
-    1: One
-
-    2: Two
-
-    3: Three
-
-    4: Four
-
-    5: Five
 
 ### Directory structure:
 
