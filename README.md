@@ -14,17 +14,22 @@ cd finger-gestures-detection_using-YOLOv8
 pip install -r requirements.txt
 ```
 
+----
+
+
 ## 📂 Dataset
 
 The dataset is a merged collection of finger gesture images (numbers 0 to 5), created by combining samples from multiple Roboflow datasets (versions v1 to v7).  
-You can access the datasets used in this project here:  
-👉 [all the datasets link](https://universe.roboflow.com/hands-rirpj/fingers-numbers/dataset/7)
+You can access the datasets used in this project here:  [all the datasets ](https://universe.roboflow.com/hands-rirpj/fingers-numbers/dataset/7)
+
+- Images + labels are merged and split into train, val, test using **split-folders** library.
+
+- **YOLO** format labels (.txt files).
+
+👉 You can access the **post-processed** dataset (ready to fit the model) used in this project here: [post-processed dataset](https://drive.google.com/drive/folders/17QQ0nbbwBH3ofXY1OXlM2aP_hUHEz2L-?usp=drive_link)
 
 
-    Images + labels are merged and split into train, val, test using split-folders.
-
-    YOLO format labels (.txt files).
-
+ 
 ### Classes:
 
     0: Zero
@@ -53,19 +58,27 @@ You can access the datasets used in this project here:
         │    ├── images/
         │    └── labels/
         └── data.yaml
+        
+---
 
 
 ## 🏋️‍♂️ Training Details
 
-    -Model: YOLOv8 nano (yolov8n.pt)
+  - **Model**: YOLOv8 nano (yolov8n.pt)
 
-    -Input size: 416×416
+  - **Input size**: 416×416
 
-    -Epochs: 50
+  - **Epochs**: 50
 
-    -Batch size: 32
+  - **Batch size**: 32
 
-    -Checkpoints: best model + per-epoch models saved
+  - **Checkpoints**: best model + per-epoch models saved
+    
+  - **Early stopping**: stops training if validation loss does not improve for 10 consecutive epochs
+
+
+   ---
+
 
 ## 📊 Results / Metrics
 
@@ -100,16 +113,17 @@ You can access the datasets used in this project here:
 
    ![alt text](Outputs/Confusion_Matrix.png)
 
-   📝 Note: Our dataset has 6 classes (0 to 5), but the Ultralytics ConfusionMatrix object includes an extra row and column, making it a 7×7 matrix. This extra class     corresponds to the background/no-detection category, which accounts for:
+   📝 **Note**: Our dataset has 6 classes (0 to 5), but the Ultralytics ConfusionMatrix object includes an extra row and column, making it a 7×7 matrix. This extra class      corresponds to the background/no-detection category, which accounts for:
     
--False positives (detections with no matching ground truth)
+- **False positives** (detections with no matching ground truth)
 
--False negatives (ground truth objects missed by the model)
+- **False negatives** (ground truth objects missed by the model)
 
 
 
-   ### Predictions : 
- <img src="https://github.com/user-attachments/assets/47866d12-480d-434d-b599-557d49648949" width="300" height="300">
+### Predictions :
+  
+<img src="https://github.com/user-attachments/assets/47866d12-480d-434d-b599-557d49648949" width="300" height="300">
 <img src="https://github.com/user-attachments/assets/9af89421-d94c-4368-9683-c36329815223" width="300" height="300">
 <img src="https://github.com/user-attachments/assets/db5c7fc3-eee4-4f82-8c22-04bdc75eb4b4" width="300" height="300">
 <img src="https://github.com/user-attachments/assets/38412b74-45f5-4f48-a77b-4501bfa5d759" width="300" height="300">
