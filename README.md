@@ -46,7 +46,7 @@ You can access the datasets used in this project here:  [all the datasets ](http
 
 ### Directory structure:
 
-    Datasets/
+    Dataset/
     └── fingers_dataset(split)/
         ├── train/
         │    ├── images/
