@@ -19,6 +19,7 @@ pip install -r requirements.txt
 ```bash
 jupyter Notebook.ipynb
 ```
+Alternatively, run in Google Colab by uploading `Notebook.ipynb` to your Colab environment and executing the cells.
 
 ----
 
