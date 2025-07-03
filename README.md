@@ -15,6 +15,9 @@ cd finger-gestures-detection_using-YOLOv8
 pip install -r requirements.txt
 ```
 
+3️⃣ Run the notebook:
+```bash
+jupyter Notebook.ipynb
 ----
 
 
