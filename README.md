@@ -18,6 +18,8 @@ pip install -r requirements.txt
 3️⃣ Run the notebook:
 ```bash
 jupyter Notebook.ipynb
+```
+
 ----
 
 
